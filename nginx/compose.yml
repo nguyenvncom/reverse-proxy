@@ -15,8 +15,8 @@ services:
       - ./security:/etc/nginx/security:ro
 
     networks:
-      - my-network
+      - me
 
 networks:
-  my-network:
+  me:
     external: true
